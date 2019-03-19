@@ -1,0 +1,89 @@
+.animate-width{
+  width: 0%;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+    opacity:0;
+    animation:fadeIn ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:1.25s;
+    animation-delay: 0s
+}
+
+@keyframes animate98 {from {width:0%} to {width:98%;}}
+.animate-98 {
+    animation:animate98 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate92 {from {width:0%} to {width:92%;}}
+.animate-92 {
+    animation:animate92 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate88 {from {width:0%} to {width:92%;}}
+.animate-88 {
+    animation:animate88 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate88 {from {width:0%} to {width:88%;}}
+.animate-88 {
+    animation:animate88 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate80 {from {width:0%} to {width:80%;}}
+.animate-80 {
+    animation:animate80 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate70 {from {width:0%} to {width:70%;}}
+.animate-70 {
+    animation:animate70 ease-in 1;
+
+    animation-fill-mode:forwards;
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+@keyframes animate65 {from {width:0%} to {width:65%;}}
+.animate-65 {
+    animation:animate65 ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:2s;
+    animation-delay: 0s
+}
+
+
+.socialIcons{
+  size:24;
+}
